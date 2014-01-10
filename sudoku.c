@@ -9,27 +9,27 @@ static int cols[ SIZE ];
 static int rows[ SIZE ];
 static int grids[ SIZE ];
 
+static void print( void )
+{
+}
+
+static int find( void )
+{
+}
+
+static bool set( const int loc, const int num )
+{
+  return false;
+}
+
+static void unset( const int loc )
+{
+}
+
 void sudoku( void )
 {
 }
 
 void read( void )
-{
-}
-
-void print( void )
-{
-}
-
-int find( void )
-{
-}
-
-bool set( const int loc, const int num )
-{
-  return false;
-}
-
-void unset( const int loc )
 {
 }

@@ -1,23 +1,19 @@
 CC=gcc
 CFLAGS=
-LIBS=
 
-EXE=\
-	sudoku
+EXE=sudoku
 
-OBJS=\
-	main.o\
-	sudoku.o
+OBJS=main.o sudoku.o
 
 .PHONY: all clean $(EXE)
 
 all: $(EXE)
 
 $(EXE): $(OBJS)
-	${CC} -o $(EXE)  $(OBJS)
+	${CC} -o $(EXE) $(OBJS)
 
 sudoku.o: sudoku.h
 main.o: sudoku.h
 
 clean:
-	@rm -f ${EXE} $(OBJS) *~
+	-rm -f ${EXE} $(OBJS) *~

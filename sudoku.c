@@ -4,6 +4,9 @@
 
 #include "sudoku.h"
 
+// 默认九宫格大小
+#define SIZE 9
+
 #define SEP_LINE "+------+------+------+"
 
 // 数独矩阵
